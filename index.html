@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <title>Dimitri Otanadze</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="profile-pic">
+            <img src="profilbild.PNG.png" alt="Profilbild von Dimitri Otanadze" />
+        </div>
+        <h1>Dimitri Otanadze</h1>
+    </header>
+
+    <nav>
+        <button class="nav-btn active" onclick="showSection('about', this)">Über mich</button>
+        <button class="nav-btn" onclick="showSection('experience', this)">Erfahrung</button>
+        <button class="nav-btn" onclick="showSection('skills', this)">Kenntnisse</button>
+        <button class="nav-btn" onclick="showSection('competence', this)">Kompetenz</button>
+        <button class="nav-btn" onclick="showSection('Lebenslauf', this)">Lebenslauf</button>
+        <button class="nav-btn" onclick="showSection('contact', this)">Kontakt</button>
+    </nav>
+
+    <main>
+        <section id="about" class="section active">
+            <p>Mein Name ist Dimitri Otanadze. Ich wohne in Friedrichshafen und suche aktiv eine Ausbildungsstelle als Fachinformatiker im Bereich der Informationstechnologie (IT).</p>
+        </section>
+
+        <section id="experience" class="section">
+            <ul>
+                <li><strong>XXXLutz Restaurant</strong> – Ausbildung in Gastronomie  
+                    <br><small>09.2024 – Aktuell</small>
+                </li>
+                <!-- ...weitere Einträge -->
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Ausbildung</h2>
+            <ul>
+                <li><strong>Georgian State Agrarian University / Tbilisi</strong> – Bachelor in: Betriebswirtschaft  
+                    <br><small>09.2006 - 07.2010</small>
+                </li>
+                <!-- ...weitere Einträge -->
+            </ul>
+        </section>
+
+        <section id="competence" class="section">
+            <ul>
+                <li>Technisches Verständnis</li>
+                <li>Problemlösung & Teamarbeit</li>
+                <li>Kommunikationsfähigkeiten</li>
+                <li>Selbstlernfähigkeit</li>
+                <li>Analytisches Denken</li>
+                <li>Verantwortungsbewusstsein</li>
+            </ul>
+            <h2>Sprachen</h2>
+            <ul>
+                <li>Georgisch – Muttersprache</li>
+                <li>Deutsch – Sehr Gute Kenntnisse</li>
+                <li>Englisch – Sehr Gute Kenntnisse</li>
+                <li>Russisch – Sehr Gute Kenntnisse</li>
+            </ul>
+        </section>
+
+        <section id="Lebenslauf" class="section" style="text-align: justify; line-height: 1.6;">
+            <p>Sehr geehrte Damen und Herren,</p>
+            <p>mit großem Interesse bewerbe ich mich um eine Ausbildungsstelle als IT-Fachkraft in Ihrem Unternehmen.<br>
+            Nachdem ich mein Studium in Betriebswirtschaftslehre in Georgien abgeschlossen habe,<br>
+            habe ich vielseitige Erfahrungen in verschiedenen Arbeitsbereichen gesammelt.</p>
+            <p>Obwohl ich im Pflegebereich tätig war, habe ich stets mein Interesse an der IT-Branche verfolgt und<br>
+            meine Fähigkeiten in diesem Bereich kontinuierlich weiterentwickelt. Ich habe bereits praktische Erfahrung<br>
+            im IT-Support, in der Systemintegration sowie in der Softwaretestung gesammelt und bilde mich<br>
+            in diesem Bereich weiterhin aktiv fort.</p>
+            <p>Ich bin hoch motiviert, meine Kenntnisse und mein Engagement in einem Ausbildungsplatz bei Ihnen<br>
+            einzubringen und mich sowohl fachlich als auch persönlich weiterzuentwickeln.</p>
+            <p>Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.</p>
+            <p>Mit freundlichen Grüßen<br>Dimitri Otanadze</p>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-info">
+                <div class="contact-line">
+                    <i class="fas fa-envelope"></i>
+                    <span>dimitriotanadze@gmail.com</span>
+                </div>
+                <div class="contact-line">
+                    <i class="fas fa-phone"></i>
+                    <span>0163 3647768</span>
+                </div>
+                <div class="contact-line">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Maybachstrasse 4</span>
+                </div>
+                <div style="margin-left:10px;">88045 Friedrichshafen</div>
+            </div>
+        </section>
+    </main>
+
+    <button id="darkModeToggle">Dark Mode an/aus</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
