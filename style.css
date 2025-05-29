@@ -43,6 +43,8 @@ header {
     height: 100%;
     object-fit: cover;
     display: block;
+    object-position: center 20%;  /* 20% ქვემოთ გადაიწევს */
+}
 }
 
 h1 {
